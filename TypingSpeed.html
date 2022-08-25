@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="TypingSpeed.css">
+</head>
+<body>
+    <div id="container">
+        <div class="heading"><h1>Test your Typing Speed</h1></div>
+        <div id="WCETA">
+            <div class="box">
+                <p class="boxHeading">ERRORS</p>
+                <div class="boxInner"><span id="err">0</span></div>
+            </div>
+            <div class="box">
+                <p class="boxHeading">TIME</p>
+                <div class="boxInner"><span id="time">60</span>s</div>
+            </div>
+            <div class="box">
+                <p class="boxHeading">ACCURACY</p>
+                <div class="boxInner"><span id="acc">100</span>%</div>
+            </div>
+        </div>
+        <div class="instructionContainer">
+            <p id="instruction">Click on the area below to start the game.</p>
+        </div>
+        <div class="typeHere">
+            <input type="text" id="typeText" name="typeText" placeholder="start typing here..."  onclick="startedTyping()">
+        </div>
+    </div>
+    <script src="TypingSpeed.js"></script>
+</body>
+</html>

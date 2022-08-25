@@ -1,0 +1,59 @@
+.heading {
+    text-align: center;
+}
+
+#WCETA, .instructionContainer, .typeHere, #restartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box, #instruction, #restartbutton {
+    display: inline-block;
+    background-color: #cbd907;
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+#instruction, #restartbutton {
+    width: auto;
+    height: 30px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxHeading {
+    margin: 0px;
+}
+
+.boxInner {
+    font-size: 35px;
+}
+
+#typeText {
+    background-color: #fff4c9;
+    width: 800px;
+    height: 30px;
+    padding: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+
+.box, #instruction, #typeText, #restartbutton {
+    box-shadow: 5px 5px 5px #0b0b0b;
+}
+
+#restartbutton {
+    background-color: #2c6965;
+    margin-top: 12px;
+}
+
+.errorRed {
+    color: red;
+    display: inline;
+}
